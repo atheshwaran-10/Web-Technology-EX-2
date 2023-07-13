@@ -1,13 +1,13 @@
 body {
   font-family: Arial, sans-serif;
+  background-color: #000000;
 }
 
-h2 {
-  color: #333;
-}
 
-h3 {
-  color: #555;
+
+
+h3,h2,h1,p ,h4{
+  color: #ffffff;
 }
 
 ul {
@@ -26,14 +26,7 @@ a:visited {
   color: #007bff;
   text-decoration: none;
 }
-.image
-{
-  height:8%;
-  width: 8%;
-  border-radius: 5px;
-  position: relative;
-  left: auto;
-}
+
 .wel
 {
   margin-top: -7%;
@@ -73,4 +66,38 @@ input[type="submit"] {
   border: none;
   color: #fff;
   cursor: pointer;
+}
+
+.box
+{
+  border-radius: 50px;
+  position: relative;
+  left: 5%;
+  top: 5%;
+  border-color: #333;
+}
+.image2
+{
+  position: absolute;
+  top: 1%;
+  right: 36%;
+  height: 80px;
+  margin-top: 5px;
+  width: 320px;
+
+}
+.image
+{
+  height:100%;
+  width: 10%;
+  position: absolute;
+  top: 5%;
+  right: 1%;
+  margin-left: 3%;
+}
+.ea
+{
+  height:5%;
+  width: 12%;
+  margin-top: -2%;
 }
