@@ -70,11 +70,11 @@ input[type="submit"] {
 
 .box
 {
-  border-radius: 50px;
+  border-radius: 5px;
   position: relative;
-  left: 5%;
-  top: 5%;
-  border-color: #333;
+  left: 30%;
+  top: 50px;
+  background-color: #000000;
 }
 .image2
 {
@@ -100,4 +100,8 @@ input[type="submit"] {
   height:5%;
   width: 12%;
   margin-top: -2%;
+}
+.text
+{
+  color: #000000;
 }
