@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration</title>
+  <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+  <h2>Extracurricular Activity Registration</h2>
+  <form action="registration.php" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="grade">Grade:</label>
+    <select id="grade" name="grade">
+      <option value="9">Grade 9</option>
+      <option value="10">Grade 10</option>
+      <option value="11">Grade 11</option>
+      <option value="12">Grade 12</option>
+    </select><br><br>
+
+    <label for="activity">Select Activity:</label>
+    <select id="activity" name="activity">
+      <option value="1">Activity 1</option>
+      <option value="2">Activity 2</option>
+      <option value="3">Activity 3</option>
+    </select><br><br>
+
+    <input type="submit" value="Register">
+  </form>
+</body>
+</html>
