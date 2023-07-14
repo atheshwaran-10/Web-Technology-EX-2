@@ -3,10 +3,35 @@ body {
   background-color: #000000;
 }
 
+.cnt
+{
+  margin-left: 80%;
+  position: relative;
+  bottom: 15%;
+  color: #000000;
+}
+.right
+{
+  position: relative;
+  margin-top: -34%;
+  left: 50%;
+}
+.nav-box
+{
+  background-color: #f5e6e6;
+  border-radius: 50px;
+  width: 150px;
+  height: 55px;
+  font-size: 13px;
+}
 
+.box-content
+{
+  margin-left: 8px;
+  color: rgb(4, 4, 4);
+}
 
-
-h3,h2,h1,p ,h4{
+h3,h2,h1,p ,h4,table{
   color: #ffffff;
 }
 
@@ -18,8 +43,10 @@ ul {
 li {
   margin-bottom: 20px;
 }
+
 a{
   text-decoration: none;
+  color: #007bff;
 }
 a:link,
 a:visited {
@@ -32,8 +59,9 @@ a:visited {
   margin-top: -7%;
   text-align: center;
 }
+
 a:hover{
-  color: #00e1ff; 
+  color: rgb(246, 21, 246); 
   text-decoration: underline;
 }
 a:focus {
@@ -45,6 +73,7 @@ a:active {
   color: #50d9ff; 
   text-decoration: underline;
 }
+
 form {
   margin-top: 20px;
 }
@@ -103,5 +132,92 @@ input[type="submit"] {
 }
 .text
 {
-  color: #000000;
+  color: rgb(246, 21, 246);
+}
+.dash,.menu
+{
+  color: rgb(246, 21, 246);
+  font-size:25px;
+  font-weight:600;
+}
+.act
+{
+  padding-left:3px;
+  z-index: 1;
+  padding-top: 5px;
+}
+.menu-item{
+  margin: 5px 0px 5px 0;
+  margin-top: 5%;
+}
+
+.menu-box
+{
+  text-align: left;
+  margin-left: 20%;
+}
+
+.main{
+  background-color:#f5e6e6;
+  border-radius: 20px;
+}
+button
+{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+span
+{
+    background: #009688;
+    height:100%;
+    width: 0%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 0.5s;
+    z-index:-1;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+}
+.noone
+{
+  position: relative;
+  top: -20px;
+  display: none;
+}
+
+
+.counter-wrapper {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 4px solid #9400D3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.counter-value {
+  font-size: 24px;
+  font-weight: bold;
+  color: #9400D3;
 }
