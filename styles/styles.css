@@ -1,6 +1,11 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #000000;
+  color: #f1f1f1;
+ 
+}
+.nav-main{
+  background: linear-gradient(120deg,#080808 55%,#fcfcfc 55%);
+  background-repeat: no-repeat;
 }
 
 .cnt
@@ -8,17 +13,17 @@ body {
   margin-left: 80%;
   position: relative;
   bottom: 15%;
-  color: #666;
+  color: #000000;
 }
 .right
 {
   position: relative;
-  margin-top: -34%;
+  margin-top: -30%;
   left: 50%;
 }
 .nav-box
 {
-  background-color: #f5e6e6;
+  background-color: #f1f1f1;
   border-radius: 50px;
   width: 150px;
   height: 55px;
@@ -32,7 +37,10 @@ body {
 }
 
 h3,h2,h1,p ,h4,table{
-  color: #ffffff;
+  border-collapse: collapse;
+}
+table,tr,td,th{
+  color: #666;
 }
 
 ul {
@@ -61,8 +69,9 @@ a:visited {
 }
 
 a:hover{
-  color: rgb(255, 255, 255); 
+  color: #666;
   text-decoration: underline;
+  transition: 0.5s;
 }
 a:focus {
   color: #ff5050; 
@@ -87,6 +96,7 @@ label {
 select, input[type="text"] {
   width: 200px;
   padding: 5px;
+  
 }
 
 input[type="submit"] {
@@ -132,18 +142,17 @@ input[type="submit"] {
 }
 .text
 {
-  color: rgb(255, 255, 255);
+  color: #f1f1f1;
 }
 .dash,.menu
 {
-  color: rgb(255, 240, 255);
+  color: #f1f1f1;
   font-size:25px;
   font-weight:600;
 }
 .act
 {
   padding-left:3px;
-  z-index: 1;
   padding-top: 5px;
 }
 .menu-item{
@@ -155,39 +164,45 @@ input[type="submit"] {
 {
   text-align: left;
   margin-left: 20%;
+  padding-top: 5%;
 }
 
 .main{
-  background-color:#f5e6e6;
+  background-color:#f1f1f1;
   border-radius: 20px;
+  padding-bottom: 7%;
+}
+a{
+  z-index: -1;
+
 }
 button
 {
-    width: 200px;
+    width: 70px; 
     padding: 15px 0;
     text-align: center;
     margin: 20px 10px;
     border-radius: 25px;
     font-weight: bold;
-    border: 2px solid #009688;
+    border: 2px solid #666;
     background: transparent;
     color: #fff;
     cursor: pointer;
     position: relative;
     overflow: hidden;
-    z-index: 1;
 }
 span
 {
-    background: #009688;
+    background: #666;
+    color: #f4f4f4;
     height:100%;
     width: 0%;
     border-radius: 25px;
     position: absolute;
     left: 0;
     bottom: 0;
+    z-index: -1;
     transition: 0.5s;
-    z-index:-1;
 }
 button:hover span{
     width: 100%;
@@ -196,36 +211,10 @@ button:hover{
     border: none;
 }
 
-.menu-item {
-  display: inline-block;
-}
-
-.menu-link {
-  text-decoration: none;
-  color: #333;
-  font-size: 18px;
-  transition: color 0.3s ease;
-}
-
-.menu-link:hover {
-  color: #666;
-}
-
-.menu-hr {
-  border: none;
-  height: 1px;
-  background-color: #ccc;
-  margin: 5px 0;
-  transition: width 0.5s ease;
-}
-
-.menu-link:hover + .menu-hr {
-  width: 50%;
-}
-
 .dash{
   box-shadow: #333;
 }
+
 .ach
 {
   font-size: 15.5px;
